@@ -208,9 +208,23 @@ After setting up the boto3 Lambda layer and the HTTP API, it is crucial to confi
 1. **Open S3**: Go back to S3.
 2. **Access Bucket**: Open `code-gen-bucket`.
 3. **Locate Code**: Find the generated code file.
-![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/431f535f-3ad0-4e35-8630-93f2783e5d56)
-![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/27f20069-92c8-4595-bc5e-84e671146a27)
 
+![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/d5e2ea4a-f1b0-4124-b0b0-e60622c08d8d)
+
+
+4.Download the python file and open it in any editor of your choice.
+![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/488a824f-8a83-4ab7-b3cd-a32b6143f509)
+
+
+![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/daf6aaca-c935-4bbf-b87f-548184a13ea7)
+
+Voilà! The code has been generated.
+
+---
+
+## Conclusion
+
+Serverless-Code-Vault is an efficient solution for code generation and storage. This guide assists users in setting up and leveraging this system effectively.
 
 
 
