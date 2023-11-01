@@ -67,18 +67,18 @@ These imports fetch essential libraries required for the code's operation:
 - `json`: Standard Python library used to parse JSON data, which is the format of the event data that Lambda functions receive and the format used to send responses.
 - `datetime`: Standard Python library used to work with dates and times. It's particularly useful here for timestamping generated code files before saving to S3.
 
-  ```python
-  # Function to generate code using the AWS Bedrock service
-  def generate_code_using_bedrock(message:str,language:str) ->str:
-    ...
+   ```python
+   # Function to generate code using the AWS Bedrock service
+   def generate_code_using_bedrock(message:str,language:str) ->str:
+     ...
 
 This function interacts with AWS Bedrock to generate code. It prepares the prompt for Bedrock, sets up a request body, invokes the Bedrock model, and processes the response to return the generated code.
 
-  ```python
-    # Function to save the generated code to an S3 bucket
-    def save_code_to_s3_bucket(code, s3_bucket, s3_key):
-     ...
-  ```
+   ```python
+     # Function to save the generated code to an S3 bucket
+     def save_code_to_s3_bucket(code, s3_bucket, s3_key):
+      ...
+   ```
 
 This function saves the generated code to a specified S3 bucket. It creates an S3 client using boto3, and puts the generated code in the specified bucket and key.
 
