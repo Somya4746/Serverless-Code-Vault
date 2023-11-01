@@ -199,7 +199,7 @@ After setting up the boto3 Lambda layer and the HTTP API, it is crucial to confi
 3. **Input Endpoint**: Use the provided endpoint.Don't forget to enter the route specified in the api at the end.Mine is `/code-gen`
 4. **Payload Configuration**: Input the JSON payload.
 5. **Send Request**: Click **Send**.
-![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/d234a2c7-6b99-4048-89d7-d6872ae1ca09)
+![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/8ed88633-be40-4836-9ddc-026e1267eab9)
 
 
 
