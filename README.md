@@ -197,13 +197,26 @@ After setting up the boto3 Lambda layer and the HTTP API, it is crucial to confi
 1. **Open Postman**: Launch Postman.
 2. **New Request**: Start a POST request.
 3. **Input Endpoint**: Use the provided endpoint.Don't forget to enter the route specified in the api at the end.Mine is `/code-gen`
-
-![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/55174007-b1b9-49e9-bdf7-59d90d7b0371)
-
-
 4. **Payload Configuration**: Input the JSON payload.
 5. **Send Request**: Click **Send**.
-![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/4a7bcd07-4861-4d43-a493-cc29077586cc)
+![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/d234a2c7-6b99-4048-89d7-d6872ae1ca09)
+
+
+
+### Step 8: Review in S3
+
+1. **Open S3**: Go back to S3.
+2. **Access Bucket**: Open `code-gen-bucket`.
+3. **Locate Code**: Find the generated code file.
+![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/431f535f-3ad0-4e35-8630-93f2783e5d56)
+![image](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/27f20069-92c8-4595-bc5e-84e671146a27)
+
+
+
+
+
+
+
 
 
 
