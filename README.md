@@ -1,4 +1,4 @@
-![Screenshot (660)](https://github.com/Somya4746/Serverless-Code-Vault/assets/141270415/e48e25e0-53ea-404a-a43b-5fe1b84baf4d)# Serverless-Code-Vault
+# Serverless-Code-Vault
 ServerlessCodeVault utilizes AWS Bedrock and HTTP POST API for automated code generation and storage in an AWS S3 bucket, offering a streamlined, serverless solution for efficient code management.
 
 ---
