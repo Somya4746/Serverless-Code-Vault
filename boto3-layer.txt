@@ -1,0 +1,16 @@
+#Create a lib folder:
+LIB_DIR=boto3-mylayer/python
+mkdir -p $LIB_DIR
+
+
+#Install the library to LIB_DIR:
+pip3 install boto3 -t $LIB_DIR
+
+
+#Zip all the dependencies to /tmp/boto3-mylayer.zip:
+cd boto3-mylayer
+zip -r /tmp/boto3-code-gen.zip .
+
+
+#Publish the layer:
+aws lambda publish-layer-version --layer-name boto3-code-gen --zip-file fileb://
